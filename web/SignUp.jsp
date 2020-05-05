@@ -17,10 +17,10 @@
                 <p><input placeholder="E-mail..." oninput="this.className = ''" name="email"></p>
                 <p><input placeholder="Phone..." oninput="this.className = ''" name="phone"></p>
             </div>
-            <div class="tab">Birthday:
-                <p><input placeholder="dd" oninput="this.className = ''" name="dd"></p>
-                <p><input placeholder="mm" oninput="this.className = ''" name="nn"></p>
-                <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy"></p>
+            <div class="tab">Address:
+                <p><input placeholder="Enter Your Address" oninput="this.className = ''" name="dd"></p>
+<!--                <p><input placeholder="mm" oninput="this.className = ''" name="nn"></p>
+                <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy"></p>-->
             </div>
             <div class="tab">Login Info:
                 <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
