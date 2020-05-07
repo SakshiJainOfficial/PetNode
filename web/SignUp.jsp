@@ -19,8 +19,16 @@
             </div>
             <div class="tab">Address:
                 <p><input placeholder="Enter Your Address" oninput="this.className = ''" name="dd"></p>
-<!--                <p><input placeholder="mm" oninput="this.className = ''" name="nn"></p>
-                <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy"></p>-->
+                <label for="cars">Choose State:</label>
+
+                <select id="cars">
+                    <option value="MP">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Delhi">Delhi</option>
+                </select>
+                <!--                <p><input placeholder="mm" oninput="this.className = ''" name="nn"></p>
+                                <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy"></p>-->
             </div>
             <div class="tab">Login Info:
                 <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
