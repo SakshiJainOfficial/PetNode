@@ -33,6 +33,12 @@
             <div class="tab">Login Info:
                 <p><input placeholder="Username..." oninput="this.className = ''" name="uname"></p>
                 <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password"></p>
+                
+            </div>
+             <div class="tab">
+                <%=(request.getAttribute("errMessage") == null) ? ""
+         : request.getAttribute("errMessage")%>
+                
             </div>
             <div style="overflow:auto;">
                 <div style="float:right;">
