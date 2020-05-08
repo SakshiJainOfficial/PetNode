@@ -22,7 +22,7 @@ public class SignUpDao {
         PreparedStatement ps=null;
         try{
             con=DBConnection.createConnection();
-            String query="Insert into users(S.No,?,?,?,?,?,?,?,?)";
+            String query="insert into users values(NULL,?,?,?,?,?,?,?,?)";
             ps=con.prepareStatement(query);
             ps.setString(1, firstName);
             ps.setString(2, lastName);

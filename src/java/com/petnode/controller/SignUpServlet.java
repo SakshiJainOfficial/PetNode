@@ -11,7 +11,7 @@ import com.petnode.bean.SignUpBean;
 import com.petnode.dao.SignUpDao;
 
 public class SignUpServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException {
     String firstName=request.getParameter("fname");
     String lastName=request.getParameter("lname");
     String email=request.getParameter("email");
@@ -36,7 +36,7 @@ public class SignUpServlet extends HttpServlet {
     
     String userSignedUp=signUpDao.signUpUser(signUpBean);
     if(userSignedUp.equals("SUCCESS")){
-        request.getRequestDispatcher("/index.jsp").forward(request, response);
+        request.getRequestDispatcher("index.jsp").forward(request, response);
     }
     
     else{

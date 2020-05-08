@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="CSS/SignUp.css">
     </head>
     <body>
-        <form id="regForm" action="SignUpServlet" method="post">
+        <form id="regForm" action="SignUpServlet" method="get">
             <h1>SignUp</h1>
             <!-- One "tab" for each step in the form: -->
             <div class="tab">Name:
@@ -35,11 +35,11 @@
                 <p><input placeholder="Password..." oninput="this.className = ''" name="pword" type="password"></p>
                 
             </div>
-             <div class="tab">
+<!--             <div class="tab">
                 <%=(request.getAttribute("errMessage") == null) ? ""
          : request.getAttribute("errMessage")%>
                 
-            </div>
+            </div>-->
             <div style="overflow:auto;">
                 <div style="float:right;">
                     <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
