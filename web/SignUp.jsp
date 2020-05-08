@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="CSS/SignUp.css">
     </head>
     <body>
-        <form id="regForm" action="/action_page.php">
+        <form id="regForm" action="SignUpServlet" method="post">
             <h1>SignUp</h1>
             <!-- One "tab" for each step in the form: -->
             <div class="tab">Name:
@@ -21,7 +21,7 @@
                 <p><input placeholder="Enter Your Address" oninput="this.className = ''" name="dd"></p>
                 <label for="cars">Choose State:</label>
 
-                <select id="cars">
+                <select id="cars" name="state">
                     <option value="MP">Madhya Pradesh</option>
                     <option value="Maharashtra">Maharashtra</option>
                     <option value="Bihar">Bihar</option>
