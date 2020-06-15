@@ -10,16 +10,17 @@
         <title>PetNode</title>
 
         <!-- Bootstrap CSS CDN -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <!-- Our Custom CSS -->
         <link rel="stylesheet" href="CSS/sideBar.css">
 
         <!-- Font Awesome JS -->
-<!--    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
-        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>-->
+        <!--    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+                <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>-->
 
         <link rel="stylesheet" href="CSS/ImageOverlayFromTop.css">
-<!--        footer-->
+        <!--        footer-->
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,7 +28,34 @@
     </head>
 
     <body>
-
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">                                                 <h5 class="modal-title" id="staticBackdropLabel">Payment</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="false">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Choose the Payment option:
+                        <br>
+                        <br>
+                            <input type="radio" id="male" name="payment_mode" value="netbanking">
+                            <label for="netbanking">Net Banking</label><br>
+                            <input type="radio" id="upi" name="payment_mode" value="upi">
+                            <label for="upi">UPI</label><br>
+                            <input type="radio" id="cash_on_delivery" name="payment_mode" value="cash_on_delivery">
+                            <label for="cash_on_delivery">Cash on Delivery</label>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Confirm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="wrapper">
             <!-- Sidebar Holder -->
             <nav id="sidebar">
@@ -46,34 +74,34 @@
                             <li>
                                 <a href="SignUp.jsp">Sign Up</a>
                             </li>
-<!--                            <li>
-                                <a href="#">Home 3</a>
-                            </li>-->
+                            <!--                            <li>
+                                                            <a href="#">Home 3</a>
+                                                        </li>-->
                         </ul>
                     </li>
                     <li>
                         <a href="#about">About</a>
-<!--                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Services</a>
-                        <ul class="collapse list-unstyled" id="pageSubmenu">
-                            <li>
-                                <a href="#">Page 1</a>
-                            </li>
-                            <li>
-                                <a href="#">Page 2</a>
-                            </li>
-                            <li>
-                                <a href="#">Page 3</a>
-                            </li>
-                        </ul>-->
+                        <!--                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Services</a>
+                                                <ul class="collapse list-unstyled" id="pageSubmenu">
+                                                    <li>
+                                                        <a href="#">Page 1</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Page 2</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Page 3</a>
+                                                    </li>
+                                                </ul>-->
                     </li>
                     <li>
                         <a href="#gallery">Gallery</a>
                     </li>
-                     <li>
+                    <li>
                         <a href="#reviews">Reviews</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#footer">Contact</a>
                     </li>
                 </ul>
 
@@ -81,9 +109,9 @@
                     <li>
                         <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Buy Now</a>
                     </li>
-<!--                    <li>
-                        <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
-                    </li>-->
+                    <!--                    <li>
+                                            <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+                                        </li>-->
                 </ul>
             </nav>
 
@@ -114,7 +142,13 @@
                                     <a class="nav-link" href="SignUp.jsp">Sign-Up</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Payment</a>
+                                    <!--<a class="nav-link" href="SignUp.jsp">Payment</a>-->
+                                    <!-- Button trigger modal -->
+                                    <a class="nav-link" data-toggle="modal" href="#staticBackdrop">
+                                        Payment
+                                    </a>
+
+
                                 </li>
                             </ul>
                         </div>
@@ -169,7 +203,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="line"></div>
 
                 <h2 id="about">About Us</h2>
@@ -182,58 +216,58 @@
 
                 <div class="line"></div>
 
-<!--                <h3>Lorem Ipsum Dolor</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
+                <!--                <h3>Lorem Ipsum Dolor</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
             </div>
         </div>
 
-<!-- Footer -->
-<footer class="page-footer font-small special-color-dark pt-4" style="background-color:#006266;border-top:3px solid black ">
+        <!-- Footer -->
+        <footer class="page-footer font-small special-color-dark pt-4" style="background-color:#006266;border-top:3px solid black ">
 
-  <!-- Footer Elements -->
-  <div class="container" >
+            <!-- Footer Elements -->
+            <div class="container" id="footer">
 
-    <!-- Social buttons -->
-    <ul class="list-unstyled list-inline text-center">
-      <li class="list-inline-item">
-          <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/profile.php?id=100017441899267">
-          <i class="fab fa-facebook-f"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-          <a class="btn-floating btn-tw mx-1" href="https://twitter.com/SAKSHIJ18179746">
-          <i class="fab fa-twitter"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-gplus mx-1">
-          <i class="fab fa-google-plus-g"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-          <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/in/sakshij01/">
-          <i class="fab fa-linkedin-in"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-dribbble mx-1">
-          <i class="fab fa-dribbble"> </i>
-        </a>
-      </li>
-    </ul>
-    <!-- Social buttons -->
+                <!-- Social buttons -->
+                <ul class="list-unstyled list-inline text-center">
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/profile.php?id=100017441899267">
+                            <i class="fab fa-facebook-f"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-tw mx-1" href="https://twitter.com/SAKSHIJ18179746">
+                            <i class="fab fa-twitter"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-gplus mx-1">
+                            <i class="fab fa-google-plus-g"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/in/sakshij01/">
+                            <i class="fab fa-linkedin-in"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-dribbble mx-1">
+                            <i class="fab fa-dribbble"> </i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Social buttons -->
 
-  </div>
-  <!-- Footer Elements -->
+            </div>
+            <!-- Footer Elements -->
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
 
-</footer>
-<!-- Footer -->
+        </footer>
+        <!-- Footer -->
         <!-- jQuery CDN - Slim version (=without AJAX) -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <!-- Popper.JS -->
