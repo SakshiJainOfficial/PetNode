@@ -15,10 +15,15 @@
         <link rel="stylesheet" href="CSS/sideBar.css">
 
         <!-- Font Awesome JS -->
-        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
-        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+<!--    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>-->
 
         <link rel="stylesheet" href="CSS/ImageOverlayFromTop.css">
+<!--        footer-->
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/yourcode.js"></script>
     </head>
 
     <body>
@@ -36,19 +41,19 @@
                         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
                         <ul class="collapse list-unstyled" id="homeSubmenu">
                             <li>
-                                <a href="#">Home 1</a>
+                                <a href="Login.jsp">Login</a>
                             </li>
                             <li>
-                                <a href="#">Home 2</a>
+                                <a href="SignUp.jsp">Sign Up</a>
                             </li>
-                            <li>
+<!--                            <li>
                                 <a href="#">Home 3</a>
-                            </li>
+                            </li>-->
                         </ul>
                     </li>
                     <li>
-                        <a href="#">About</a>
-                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Services</a>
+                        <a href="#about">About</a>
+<!--                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Services</a>
                         <ul class="collapse list-unstyled" id="pageSubmenu">
                             <li>
                                 <a href="#">Page 1</a>
@@ -59,10 +64,13 @@
                             <li>
                                 <a href="#">Page 3</a>
                             </li>
-                        </ul>
+                        </ul>-->
                     </li>
                     <li>
-                        <a href="#">Gallery</a>
+                        <a href="#gallery">Gallery</a>
+                    </li>
+                     <li>
+                        <a href="#reviews">Reviews</a>
                     </li>
                     <li>
                         <a href="#">Contact</a>
@@ -119,7 +127,7 @@
 
                     Despite the odds favouring owners outliving their pets, pet owners are inclined to keep on getting themselves new pets when the old ones pass away. If one has been the receiver of unconditional love and affection from a pet and has enjoyed a pets undemanding companionship then one is addicted for life.</p>
                 <div class="container">
-                    <div class="row">
+                    <div id="gallery" class="row">
                         <div class="container col-sm-3">
                             <img src="Images/pet1.jpg" alt="Avatar" class="image">
                             <div class="overlay">
@@ -164,12 +172,12 @@
                 
                 <div class="line"></div>
 
-                <h2>About Us</h2>
+                <h2 id="about">About Us</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                 <div class="line"></div>
 
-                <h2>Reviews</h2>
+                <h2 id="reviews">Reviews</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                 <div class="line"></div>
@@ -179,6 +187,53 @@
             </div>
         </div>
 
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4" style="background-color:#006266;border-top:3px solid black ">
+
+  <!-- Footer Elements -->
+  <div class="container" >
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/profile.php?id=100017441899267">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1" href="https://twitter.com/SAKSHIJ18179746">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/in/sakshij01/">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
         <!-- jQuery CDN - Slim version (=without AJAX) -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <!-- Popper.JS -->
