@@ -41,13 +41,13 @@
                         Choose the Payment option:
                         <br>
                         <br>
-                            <input type="radio" id="male" name="payment_mode" value="netbanking">
-                            <label for="netbanking">Net Banking</label><br>
-                            <input type="radio" id="upi" name="payment_mode" value="upi">
-                            <label for="upi">UPI</label><br>
-                            <input type="radio" id="cash_on_delivery" name="payment_mode" value="cash_on_delivery">
-                            <label for="cash_on_delivery">Cash on Delivery</label>
-                        
+                        <input type="radio" id="male" name="payment_mode" value="netbanking">
+                        <label for="netbanking">Net Banking</label><br>
+                        <input type="radio" id="upi" name="payment_mode" value="upi">
+                        <label for="upi">UPI</label><br>
+                        <input type="radio" id="cash_on_delivery" name="payment_mode" value="cash_on_delivery">
+                        <label for="cash_on_delivery">Cash on Delivery</label>
+
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -107,7 +107,7 @@
 
                 <ul class="list-unstyled CTAs">
                     <li>
-                        <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Buy Now</a>
+                        <a href="BuyNow.jsp">Buy Now</a>
                     </li>
                     <!--                    <li>
                                             <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
