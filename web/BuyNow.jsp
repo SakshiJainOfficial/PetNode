@@ -27,9 +27,9 @@
         <h3><center>Buy your new Family Member</center></h3>
         <br>
         
-        <div class="container">
+      
                     <div id="gallery" class="row">
-                        <div class="container col-sm-3">
+                        <div class="container col-md-3">
                             <img src="Images/pet13.jpg" alt="Avatar" class="image">
                             <div class="overlay">
                                 <div class="text">
@@ -40,8 +40,11 @@
                                 Breed: Persian Cat
                                 </div>
                             </div>
+                            <br>  
                         </div>
-                        <div class="container col-sm-3">
+                        
+                        
+                        <div class="container col-md-3">
                             <img src="Images/Pet2.jpg" alt="Avatar" class="image">
                             <div class="overlay">
                                 <div class="text">
@@ -52,8 +55,11 @@
                                 Breed: Beagle Dog
                                 </div>
                             </div>
+                            <br>
+                            
                         </div>
-                        <div class="container col-sm-3">
+                        
+                        <div class="container col-md-3">
                             <img src="Images/pet14.jpg" alt="Avatar" class="image">
                             <div class="overlay">
                                 <div class="text">
@@ -64,8 +70,23 @@
                                 Breed: Ragdoll Cat
                                 </div>
                             </div>
+                            <br>
+                            
                         </div>
                     </div>
+            <br>
+            <div class="row">
+                 <div class="container col-sm-3">
+                     <button type="button" class="btn btn-success">Buy Now</button>
+                 </div>
+                <div class="container col-sm-3">
+                     <button type="button" class="btn btn-success">Buy Now</button>
+                 </div>
+                <div class="container col-sm-3">
+                     <button type="button" class="btn btn-success">Buy Now</button>
+                 </div>
+            </div>
+                    <br>
                     <br>
                     <div class="row">
                         <div class="container col-sm-3">
@@ -79,6 +100,9 @@
                                 Breed: Persian Rabbit
                                 </div>
                             </div>
+                            <br>
+                            
+                            
                         </div>
                         <div class="container col-sm-3">
                             <img src="Images/Pet5.jpg" alt="Avatar" class="image">
@@ -91,6 +115,8 @@
                                 Breed: British Short hair Cat
                                 </div>
                             </div>
+                            <br>
+                            
                         </div>
                         <div class="container col-sm-3">
                             <img src="Images/Pet7.jpg" alt="Avatar" class="image">
@@ -103,8 +129,23 @@
                                 Breed: Persian Cat
                                 </div>
                             </div>
+                            <br>
+                            
                         </div>
                     </div>
+                    <br>
+                    <div class="row">
+                 <div class="container col-md-3">
+                     <button type="button" class="btn btn-success">Buy Now</button>
+                 </div>
+                <div class="container col-md-3">
+                     <button type="button" class="btn btn-success">Buy Now</button>
+                 </div>
+                <div class="container col-md-3">
+                     <button type="button" class="btn btn-success">Buy Now</button>
+                 </div>
+            </div>
+                    <br>
                     <br>
                      <div class="row">
                         <div class="container col-sm-3">
@@ -118,6 +159,8 @@
                                 Breed: Persian Cat
                                 </div>
                             </div>
+                            <br>
+                            
                         </div>
                         <div class="container col-sm-3">
                             <img src="Images/pet15.jpg" alt="Avatar" class="image">
@@ -130,6 +173,8 @@
                                 Breed: Persian Cat
                                 </div>
                             </div>
+                            <br>
+                     
                         </div>
                         <div class="container col-sm-3">
                             <img src="Images/pet11.jpg" alt="Avatar" class="image">
@@ -142,9 +187,23 @@
                                 Breed: Persian Cat
                                 </div>
                             </div>
+                            <br>
+                            
                         </div>
                     </div>
-                </div>
+                    <br>
+                     <div class="row">
+                 <div class="container col-sm-3">
+                     <button type="button" class="btn btn-success">Buy Now</button>
+                 </div>
+                <div class="container col-sm-3">
+                     <button type="button" class="btn btn-success">Buy Now</button>
+                 </div>
+                <div class="container col-sm-3">
+                     <button type="button" class="btn btn-success">Buy Now</button>
+                 </div>
+            </div>
+                
         <br>
  <!-- Footer -->
         <footer class="page-footer font-small special-color-dark pt-4" style="background-color:#006266;border-top:3px solid black ">
