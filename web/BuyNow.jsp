@@ -30,7 +30,7 @@
       
                     <div id="gallery" class="row">
                         <div class="container col-md-3">
-                            <img src="Images/pet13.jpg" alt="Avatar" class="image">
+                            <img src="Images/pet13.jpg" alt="Avatar" class="image img-fluid">
                             <div class="overlay">
                                 <div class="text">
                                 Name: Ruby
@@ -45,7 +45,7 @@
                         
                         
                         <div class="container col-md-3">
-                            <img src="Images/Pet2.jpg" alt="Avatar" class="image">
+                            <img src="Images/Pet2.jpg" alt="Avatar" class="image img-fluid">
                             <div class="overlay">
                                 <div class="text">
                                 Name: Brutus
@@ -60,7 +60,7 @@
                         </div>
                         
                         <div class="container col-md-3">
-                            <img src="Images/pet14.jpg" alt="Avatar" class="image">
+                            <img src="Images/pet14.jpg" alt="Avatar" class="image img-fluid">
                             <div class="overlay">
                                 <div class="text">
                                 Name: Aliza
@@ -90,7 +90,7 @@
                     <br>
                     <div class="row">
                         <div class="container col-sm-3">
-                            <img src="Images/Pet8.jpg" alt="Avatar" class="image">
+                            <img src="Images/Pet8.jpg" alt="Avatar" class="image img-fluid">
                             <div class="overlay">
                                 <div class="text">
                                 Name: Lucy
@@ -105,7 +105,7 @@
                             
                         </div>
                         <div class="container col-sm-3">
-                            <img src="Images/Pet5.jpg" alt="Avatar" class="image">
+                            <img src="Images/Pet5.jpg" alt="Avatar" class="image img-fluid">
                             <div class="overlay">
                                 <div class="text">
                                 Name: Broosy
@@ -119,7 +119,7 @@
                             
                         </div>
                         <div class="container col-sm-3">
-                            <img src="Images/Pet7.jpg" alt="Avatar" class="image">
+                            <img src="Images/Pet7.jpg" alt="Avatar" class="image img-fluid">
                             <div class="overlay">
                                 <div class="text">
                                 Name: Ruby
@@ -147,9 +147,9 @@
             </div>
                     <br>
                     <br>
-                     <div class="row">
+                     <div id="gallery" class="row">
                         <div class="container col-sm-3">
-                            <img src="Images/pet10_1.jpg" alt="Avatar" class="image">
+                            <img src="Images/pet10_1.jpg" alt="Avatar" class="image img-fluid">
                             <div class="overlay">
                                 <div class="text">
                                 Name: Ruby
@@ -163,7 +163,7 @@
                             
                         </div>
                         <div class="container col-sm-3">
-                            <img src="Images/pet15.jpg" alt="Avatar" class="image">
+                            <img src="Images/pet15.jpg" alt="Avatar" class="image img-fluid">
                             <div class="overlay">
                                 <div class="text">
                                 Name: Ruby
@@ -177,7 +177,7 @@
                      
                         </div>
                         <div class="container col-sm-3">
-                            <img src="Images/pet11.jpg" alt="Avatar" class="image">
+                            <img src="Images/pet11.jpg" alt="Avatar" class="image img-fluid">
                             <div class="overlay">
                                 <div class="text">
                                 Name: Ruby

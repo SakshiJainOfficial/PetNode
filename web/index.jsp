@@ -160,46 +160,45 @@
 
 
                     Despite the odds favouring owners outliving their pets, pet owners are inclined to keep on getting themselves new pets when the old ones pass away. If one has been the receiver of unconditional love and affection from a pet and has enjoyed a pets undemanding companionship then one is addicted for life.</p>
-                <div class="container">
-                    <div id="gallery" class="row">
-                        <div class="container col-sm-3">
-                            <img src="Images/pet1.jpg" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="text">Ruby</div>
-                            </div>
-                        </div>
-                        <div class="container col-sm-3">
-                            <img src="Images/Pet2.jpg" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="text">Brutus</div>
-                            </div>
-                        </div>
-                        <div class="container col-sm-3">
-                            <img src="Images/Pet3.jpeg" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="text">Harry</div>
-                            </div>
+
+                <div id="gallery" class="row">
+                    <div class="container col-sm-3">
+                        <img src="Images/pet1.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">Ruby</div>
                         </div>
                     </div>
-                    <br>
-                    <div class="row">
-                        <div class="container col-sm-3">
-                            <img src="Images/Pet8.jpg" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="text">Ruby</div>
-                            </div>
+                    <div class="container col-sm-3">
+                        <img src="Images/Pet2.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">Brutus</div>
                         </div>
-                        <div class="container col-sm-3">
-                            <img src="Images/Pet5.jpg" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="text">Brutus</div>
-                            </div>
+                    </div>
+                    <div class="container col-sm-3">
+                        <img src="Images/Pet3.jpeg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">Harry</div>
                         </div>
-                        <div class="container col-sm-3">
-                            <img src="Images/Pet7.jpg" alt="Avatar" class="image">
-                            <div class="overlay">
-                                <div class="text">Harry</div>
-                            </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="container col-sm-3">
+                        <img src="Images/Pet8.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">Ruby</div>
+                        </div>
+                    </div>
+                    <div class="container col-sm-3">
+                        <img src="Images/Pet5.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">Brutus</div>
+                        </div>
+                    </div>
+                    <div class="container col-sm-3">
+                        <img src="Images/Pet7.jpg" alt="Avatar" class="image">
+                        <div class="overlay">
+                            <div class="text">Harry</div>
                         </div>
                     </div>
                 </div>
