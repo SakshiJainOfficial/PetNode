@@ -14,6 +14,10 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/yourcode.js"></script>
+        <!--model-->
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
     <style>
         body{
@@ -23,9 +27,11 @@
         }
     </style>
     <body>
+         <br>
+         <h3 style="font-weight: bold"><center>Buy your new Family Member</center></h3>
         <br>
-        <h3><center>Buy your new Family Member</center></h3>
-        <br>
+       
+        
         
       
                     <div id="gallery" class="row">
@@ -75,9 +81,36 @@
                         </div>
                     </div>
             <br>
+             <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">                                                 <h5 class="modal-title" id="staticBackdropLabel">Payment</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="false">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Choose the Payment option:
+                        <br>
+                        <br>
+                        <input type="radio" id="male" name="payment_mode" value="netbanking">
+                        <label for="netbanking">Net Banking</label><br>
+                        <input type="radio" id="upi" name="payment_mode" value="upi">
+                        <label for="upi">UPI</label><br>
+                        <input type="radio" id="cash_on_delivery" name="payment_mode" value="cash_on_delivery">
+                        <label for="cash_on_delivery">Cash on Delivery</label>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Confirm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
             <div class="row">
                  <div class="container col-sm-3">
-                     <button type="button" class="btn btn-success">Buy Now</button>
+                     <button type="button" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">Buy Now</button>
                  </div>
                 <div class="container col-sm-3">
                      <button type="button" class="btn btn-success">Buy Now</button>

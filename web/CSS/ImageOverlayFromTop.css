@@ -12,15 +12,15 @@
 
 .overlay {
  
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right:0;
-  background-color: #006266;
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  transition: .7s ease;
+     position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #006266;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .7s ease;
 }
 
 .container:hover .overlay {
