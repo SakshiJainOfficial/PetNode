@@ -279,15 +279,126 @@
             </div>
         </div>
         <br>
+          <div class="modal fade" id="pet4" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">                                                 <h3 class="modal-title" id="staticBackdropLabel">Details</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="false">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Images/Pet8.jpg" width="55%" height="55%" style="border: 2px solid black">
+                        <br>
+                        <br>
+                        <pre>
+<b>Breed</b> - Persian
+<b>Color</b> - White, Ash, Black, Cream
+                        </pre>
+<ul>
+    <li>Likes to spend time indoors.</li>
+    <li>Climbs on the racks, curtains, furniture, etc.</li>
+    <li>Have a muscular and sturdy body.</li>
+    <li>Full body forming the frills.</li>
+</ul>
+                        <pre>
+<b>Weight</b>:  3-4 Kgs
+<b>Height: </b>
+   Female: 10-14 inches,
+   Male: 11-15 inches
+                        </pre>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Payment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pet5" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">                                                 <h3 class="modal-title" id="staticBackdropLabel">Details</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="false">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Images/Pet5.jpg" width="55%" height="55%" style="border: 2px solid black">
+                        <br>
+                        <br>
+                        <pre>
+<b>Breed</b> - Persian
+<b>Color</b> - White, Ash, Black, Cream
+                        </pre>
+<ul>
+    <li>Likes to spend time indoors.</li>
+    <li>Climbs on the racks, curtains, furniture, etc.</li>
+    <li>Have a muscular and sturdy body.</li>
+    <li>Full body forming the frills.</li>
+</ul>
+                        <pre>
+<b>Weight</b>:  3-4 Kgs
+<b>Height: </b>
+   Female: 10-14 inches,
+   Male: 11-15 inches
+                        </pre>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Payment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pet6" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">                                                 <h3 class="modal-title" id="staticBackdropLabel">Details</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="false">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Images/Pet7.jpg" width="55%" height="55%" style="border: 2px solid black">
+                        <br>
+                        <br>
+                        <pre>
+<b>Breed</b> - Persian
+<b>Color</b> - White, Ash, Black, Cream
+                        </pre>
+<ul>
+    <li>Likes to spend time indoors.</li>
+    <li>Climbs on the racks, curtains, furniture, etc.</li>
+    <li>Have a muscular and sturdy body.</li>
+    <li>Full body forming the frills.</li>
+</ul>
+                        <pre>
+<b>Weight</b>:  3-4 Kgs
+<b>Height: </b>
+   Female: 10-14 inches,
+   Male: 11-15 inches
+                        </pre>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Payment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="container col-md-3">
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#pet4">Buy Now</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#pet4">Details</button>
             </div>
             <div class="container col-md-3">
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#pet5">Buy Now</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#pet5">Details</button>
             </div>
             <div class="container col-md-3">
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#pet6">Buy Now</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#pet6">Details</button>
             </div>
         </div>
         <br>
@@ -337,15 +448,126 @@
             </div>
         </div>
         <br>
+          <div class="modal fade" id="pet7" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">                                                 <h3 class="modal-title" id="staticBackdropLabel">Details</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="false">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Images/pet10_1.jpg" width="55%" height="55%" style="border: 2px solid black">
+                        <br>
+                        <br>
+                        <pre>
+<b>Breed</b> - Persian
+<b>Color</b> - White, Ash, Black, Cream
+                        </pre>
+<ul>
+    <li>Likes to spend time indoors.</li>
+    <li>Climbs on the racks, curtains, furniture, etc.</li>
+    <li>Have a muscular and sturdy body.</li>
+    <li>Full body forming the frills.</li>
+</ul>
+                        <pre>
+<b>Weight</b>:  3-4 Kgs
+<b>Height: </b>
+   Female: 10-14 inches,
+   Male: 11-15 inches
+                        </pre>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Payment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pet8" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">                                                 <h3 class="modal-title" id="staticBackdropLabel">Details</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="false">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Images/pet15.jpg" width="55%" height="55%" style="border: 2px solid black">
+                        <br>
+                        <br>
+                        <pre>
+<b>Breed</b> - Persian
+<b>Color</b> - White, Ash, Black, Cream
+                        </pre>
+<ul>
+    <li>Likes to spend time indoors.</li>
+    <li>Climbs on the racks, curtains, furniture, etc.</li>
+    <li>Have a muscular and sturdy body.</li>
+    <li>Full body forming the frills.</li>
+</ul>
+                        <pre>
+<b>Weight</b>:  3-4 Kgs
+<b>Height: </b>
+   Female: 10-14 inches,
+   Male: 11-15 inches
+                        </pre>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Payment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pet9" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">                                                 <h3 class="modal-title" id="staticBackdropLabel">Details</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="false">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="Images/pet11.jpg" width="55%" height="55%" style="border: 2px solid black">
+                        <br>
+                        <br>
+                        <pre>
+<b>Breed</b> - Persian
+<b>Color</b> - White, Ash, Black, Cream
+                        </pre>
+<ul>
+    <li>Likes to spend time indoors.</li>
+    <li>Climbs on the racks, curtains, furniture, etc.</li>
+    <li>Have a muscular and sturdy body.</li>
+    <li>Full body forming the frills.</li>
+</ul>
+                        <pre>
+<b>Weight</b>:  3-4 Kgs
+<b>Height: </b>
+   Female: 10-14 inches,
+   Male: 11-15 inches
+                        </pre>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Payment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="container col-sm-3">
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">Buy Now</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#pet7">Details</button>
             </div>
             <div class="container col-sm-3">
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">Buy Now</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#pet8">Details</button>
             </div>
             <div class="container col-sm-3">
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#staticBackdrop">Buy Now</button>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#pet9">Details</button>
             </div>
         </div>
 
