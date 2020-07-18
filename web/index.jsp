@@ -206,7 +206,24 @@
                 <div class="line"></div>
 
                 <h2 id="about">About Us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/vQwZk5TLNug" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <p>Pets are part of our everyday lives and part of our families. They provide us with companionship but also with emotional support, reduce
+our stress levels, sense of loneliness and help us to increase our social activities and add to a child?s self-esteem and positive emotional
+development. In return, as responsible pet owners we need to ensure that our animals are kept healthy, fit, get nutritious food, love and
+affection and proper housing and care.
+Pets help out in many societal ways as well, especially dogs. Their sense of smell and the fact they can be easily trained have led to dogs
+being used to help people in an extraordinarily diverse range of activities: therapy dogs are taken to nursing homes, hospitals, care centres
+for the disabled to engage with patients to help their quality of life by making them more sociable and encourage interaction and activities.
+Rescue dogs have been trained to take on a number of tasks in searching for survivors after natural disasters such as earthquakes,
+tsunamis, fires, avalanches, etc. They assist firemen and policemen in tracking people and they rescue thousands of people across the
+world every year. Medical alert and detection dogs help in detecting cancer, but also have been trained to help people with severe forms of
+Diabetes , Narcolepsy, Addison?s Disease, and Epilepsy to ensure they get medical attention when necessary. These dogs save people?s
+lives on a daily basis. And then there are the assistance dogs we see regularly when we are out and about: they are trained to help physically
+impaired people (the disabled, blind and deaf people) in their everyday needs and perform a number of tasks to facilitate people?s lives from
+opening and closing doors to helping people undress, to emptying washing machines.
+More and more people have pets who share our homes and daily lives. Like us, our pets live longer as well. We need new and
+improved ways to care for them as our pets are living longer than in the past.</p>
 
                 <div class="line"></div>
 
