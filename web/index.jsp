@@ -144,7 +144,7 @@
                                 <li class="nav-item">
                                     <!--<a class="nav-link" href="SignUp.jsp">Payment</a>-->
                                     <!-- Button trigger modal -->
-                                    <a class="nav-link" data-toggle="modal" href="#staticBackdrop">
+                                    <a class="nav-link" href="PaymentServlet">
                                         Payment
                                     </a>
 
