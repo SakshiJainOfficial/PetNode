@@ -140,8 +140,13 @@
 
                     </div>
                     <div class="modal-footer">
+                       <form action="AddToList" method="post">
+                            <input type="hidden" name="name" value="Ruby">
+                            <input type="hidden" name="price" value="Rs.20000">
+                            <input type="hidden" name="image" value="Images/pet13.jpg">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Payment</button>
+                        <button type="submit" class="btn btn-primary">Payment</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -178,7 +183,7 @@
                     </div>
                     <div class="modal-footer">
                         <form action="AddToList" method="post">
-                            <input type="hidden" name="name" value="Aliza">
+                            <input type="hidden" name="name" value="Brutus">
                             <input type="hidden" name="price" value="Rs.10000">
                             <input type="hidden" name="image" value="Images/Pet2.jpg">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -219,8 +224,13 @@
 
                     </div>
                     <div class="modal-footer">
+                       <form action="AddToList" method="post">
+                            <input type="hidden" name="name" value="Aliza">
+                            <input type="hidden" name="price" value="Rs.10000">
+                            <input type="hidden" name="image" value="Images/pet14.jpg">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Payment</button>
+                        <button type="submit" class="btn btn-primary">Payment</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -315,8 +325,13 @@
 
                     </div>
                     <div class="modal-footer">
+                       <form action="AddToList" method="post">
+                            <input type="hidden" name="name" value="Lucy">
+                            <input type="hidden" name="price" value="Rs.10500">
+                            <input type="hidden" name="image" value="Images/Pet2.jpg">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Payment</button>
+                        <button type="submit" class="btn btn-primary">Payment</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -352,8 +367,13 @@
 
                     </div>
                     <div class="modal-footer">
+                        <form action="AddToList" method="post">
+                            <input type="hidden" name="name" value="Broosy">
+                            <input type="hidden" name="price" value="Rs.8000">
+                            <input type="hidden" name="image" value="Images/Pet2.jpg">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Payment</button>
+                        <button type="submit" class="btn btn-primary">Payment</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -389,8 +409,13 @@
 
                     </div>
                     <div class="modal-footer">
+                        <form action="AddToList" method="post">
+                            <input type="hidden" name="name" value="Ruby">
+                            <input type="hidden" name="price" value="Rs.9000">
+                            <input type="hidden" name="image" value="Images/Pet2.jpg">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Payment</button>
+                        <button type="submit" class="btn btn-primary">Payment</button>
+                        </form>
                     </div>
                 </div>
             </div>

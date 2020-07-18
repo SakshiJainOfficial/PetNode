@@ -31,7 +31,7 @@ public class AddToList extends HttpServlet {
             ps.setString(3, image);
             int i=ps.executeUpdate();
             if(i!=0){
-                response.sendRedirect("BuyNow.jsp");
+                response.sendRedirect("index.jsp");
             }
         }catch(SQLException e){
             e.printStackTrace();
