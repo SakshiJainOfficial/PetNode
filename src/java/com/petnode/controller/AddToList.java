@@ -36,7 +36,10 @@ public class AddToList extends HttpServlet {
         }catch(SQLException e){
             e.printStackTrace();
         }
- 
+        response.setHeader("Cache-Control", "no-cache");
+response.setHeader("Cache-Control", "no-store");
+response.setHeader("Pragma", "no-cache");
+response.setDateHeader("Expires", 0);
     }
 
     

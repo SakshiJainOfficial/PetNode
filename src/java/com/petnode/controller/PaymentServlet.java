@@ -21,18 +21,16 @@ public class PaymentServlet extends HttpServlet {
         Connection con = null;
         Statement statement = null;
         ResultSet resultSet = null;
-        String name = "";
-        String price = "";
-        String image = "";
-         ArrayList Rows = new ArrayList();
+
+        ArrayList Rows = new ArrayList();
         try {
             con = DBConnection.createConnection();
             statement = con.createStatement();
-            resultSet = statement.executeQuery("Select name,price,image from buylist");
-           
+            resultSet = statement.executeQuery("Select itemId,name,price,image from buylist");
+
             while (resultSet.next()) {
                 ArrayList row = new ArrayList();
-                for (int i = 1; i <= 3; i++) {
+                for (int i = 1; i <= 4; i++) {
                     row.add(resultSet.getString(i));
                 }
                 Rows.add(row);
@@ -44,6 +42,11 @@ public class PaymentServlet extends HttpServlet {
         HttpSession session = request.getSession();
         session.setAttribute("buylist", Rows);
         response.sendRedirect("Payment.jsp");
-        
+
+        response.setHeader("Cache-Control", "no-cache");
+response.setHeader("Cache-Control", "no-store");
+response.setHeader("Pragma", "no-cache");
+response.setDateHeader("Expires", 0);
+
     }
 }

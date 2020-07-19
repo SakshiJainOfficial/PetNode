@@ -82,33 +82,7 @@
             </div>
         </div>
         <br>
-        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">                                                 <h5 class="modal-title" id="staticBackdropLabel">Payment</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="false">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        Choose the Payment option:
-                        <br>
-                        <br>
-                        <input type="radio" id="male" name="payment_mode" value="netbanking">
-                        <label for="netbanking">Net Banking</label><br>
-                        <input type="radio" id="upi" name="payment_mode" value="upi">
-                        <label for="upi">UPI</label><br>
-                        <input type="radio" id="cash_on_delivery" name="payment_mode" value="cash_on_delivery">
-                        <label for="cash_on_delivery">Cash on Delivery</label>
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Confirm</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
         <div class="modal fade" id="pet1" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -145,7 +119,7 @@
                             <input type="hidden" name="price" value="Rs.20000">
                             <input type="hidden" name="image" value="Images/pet13.jpg">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Payment</button>
+                        <button type="submit" class="btn btn-primary">Add to Cart</button>
                         </form>
                     </div>
                 </div>
@@ -187,7 +161,7 @@
                             <input type="hidden" name="price" value="Rs.10000">
                             <input type="hidden" name="image" value="Images/Pet2.jpg">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Payment</button>
+                        <button type="submit" class="btn btn-primary">Add to Cart</button>
                         </form>
                     </div>
                 </div>
@@ -229,7 +203,7 @@
                             <input type="hidden" name="price" value="Rs.10000">
                             <input type="hidden" name="image" value="Images/pet14.jpg">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Payment</button>
+                        <button type="submit" class="btn btn-primary">Add to Cart</button>
                         </form>
                     </div>
                 </div>
@@ -330,7 +304,7 @@
                             <input type="hidden" name="price" value="Rs.10500">
                             <input type="hidden" name="image" value="Images/Pet2.jpg">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Payment</button>
+                        <button type="submit" class="btn btn-primary">Add to Cart</button>
                         </form>
                     </div>
                 </div>
@@ -372,7 +346,7 @@
                             <input type="hidden" name="price" value="Rs.8000">
                             <input type="hidden" name="image" value="Images/Pet2.jpg">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Payment</button>
+                        <button type="submit" class="btn btn-primary">Add to Cart</button>
                         </form>
                     </div>
                 </div>
@@ -414,7 +388,7 @@
                             <input type="hidden" name="price" value="Rs.9000">
                             <input type="hidden" name="image" value="Images/Pet2.jpg">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Payment</button>
+                        <button type="submit" class="btn btn-primary">Add to Cart</button>
                         </form>
                     </div>
                 </div>
@@ -452,7 +426,7 @@
                 <img src="Images/pet15.jpg" alt="Avatar" class="image img-fluid">
                 <div class="overlay">
                     <div class="text">
-                        Name: Ruby
+                        Name: Fruu
                         <br>
                         Age: 4 years
                         <br>
@@ -466,9 +440,9 @@
                 <img src="Images/pet11.jpg" alt="Avatar" class="image img-fluid">
                 <div class="overlay">
                     <div class="text">
-                        Name: Ruby
+                        Name: Kaju
                         <br>
-                        Age: 4 years
+                        Age: 2 years
                         <br>
                         Breed: Persian Cat
                     </div>
@@ -509,8 +483,13 @@
 
                     </div>
                     <div class="modal-footer">
+                        <form action="AddToList" method="post">
+                            <input type="hidden" name="name" value="Ruby">
+                            <input type="hidden" name="price" value="Rs.10500">
+                            <input type="hidden" name="image" value="Images/pet10_1.jpg">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Payment</button>
+                        <button type="submit" class="btn btn-primary">Add to Cart</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -546,8 +525,13 @@
 
                     </div>
                     <div class="modal-footer">
+                        <form action="AddToList" method="post">
+                            <input type="hidden" name="name" value="Fruu">
+                            <input type="hidden" name="price" value="Rs.10500">
+                            <input type="hidden" name="image" value="Images/pet15.jpg">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Payment</button>
+                        <button type="submit" class="btn btn-primary">Add to Cart</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -583,8 +567,13 @@
 
                     </div>
                     <div class="modal-footer">
+                        <form action="AddToList" method="post">
+                            <input type="hidden" name="name" value="kaju">
+                            <input type="hidden" name="price" value="Rs.10500">
+                            <input type="hidden" name="image" value="Images/pet11.jpg">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Payment</button>
+                        <button type="submit" class="btn btn-primary">Add to Cart</button>
+                        </form>
                     </div>
                 </div>
             </div>
