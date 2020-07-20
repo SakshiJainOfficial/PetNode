@@ -2,7 +2,6 @@ package com.petnode.controller;
 
 import com.petnode.util.DBConnection;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -44,9 +43,9 @@ public class PaymentServlet extends HttpServlet {
         response.sendRedirect("Payment.jsp");
 
         response.setHeader("Cache-Control", "no-cache");
-response.setHeader("Cache-Control", "no-store");
-response.setHeader("Pragma", "no-cache");
-response.setDateHeader("Expires", 0);
+        response.setHeader("Cache-Control", "no-store");
+        response.setHeader("Pragma", "no-cache");
+        response.setDateHeader("Expires", 0);
 
     }
 }

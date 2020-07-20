@@ -35,9 +35,9 @@
                 </div>
             </div>
         </div>
-        <% ArrayList<ArrayList> Rows = (ArrayList<ArrayList>) request.getSession().getAttribute("buylist");
+        <% ArrayList<ArrayList> Rows1 = (ArrayList<ArrayList>) request.getSession().getAttribute("buylist");
 
-            for (int i = 0; i < Rows.size(); i++) {
+            for (int i = 0; i < Rows1.size(); i++) {
 
         %>       
         <div class="card">
@@ -45,17 +45,17 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-sm-3">
-                        <img src="<%=Rows.get(i).get(3)%>" width="100%" height="100%"/>
+                        <img src="<%=Rows1.get(i).get(3)%>" width="100%" height="100%"/>
                     </div>
                     <div class="col-sm-3">
-                        <p class="card-title"><b> Name:</b> <%= Rows.get(i).get(1)%><b> Price:</b> <%= Rows.get(i).get(2)%></p>
+                        <p class="card-title"><b> Name:</b> <%= Rows1.get(i).get(1)%><b> Price:</b> <%= Rows1.get(i).get(2)%></p>
                     </div>
                 </div> 
                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
 
 
                 <form action="DeleteServlet" method="get">
-                    <button type="submit" class="btn btn-primary" name="deleteId" value="<%= Rows.get(i).get(0)%>"> Delete </button>
+                    <button type="submit" class="btn btn-primary" name="deleteId" value="<%= Rows1.get(i).get(0)%>"> Delete </button>
                 </form>
             </div>
         </div>
