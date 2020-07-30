@@ -41,7 +41,7 @@
 
         %>       
         <div class="card">
-            <h5 class="card-header">Featured</h5>
+            <h5 class="card-header">Pet</h5>
             <div class="card-body">
                 <div class="row">
                     <div class="col-sm-3">
